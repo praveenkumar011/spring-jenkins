@@ -18,6 +18,7 @@ public class SpringJenkins1Application {
 	public static void main(String[] args) {
 		LOGGER.info("Application executed......");
 		SpringApplication.run(SpringJenkins1Application.class, args);
+		System.out.println("Defect Fix branch code commit");
 	}
 
 	@PostConstruct
